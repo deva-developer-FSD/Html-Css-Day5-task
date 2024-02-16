@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(84, 94, 97);
+  padding: 25px;
+  font-family:  Courier, monospace;
+
+}
+
+.fa-brands{
+
+color: white;
+size: 20px;
+
+}
+
+.container {
+  border-radius: 10px;
+  display: grid;
+  margin: 17px;  
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+.left {
+  margin: 20px;
+  background-color:rgb(84, 94, 97);
+  width: 300px;
+  height: 700px;
+  border-radius: 10px;
+ 
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:2rem
+ 
+
+}
+
+input {
+  background-color:rgb(84, 94, 97);
+  width:500px;
+  padding: 15px;
+  border: none;
+  border-radius:5px;
+  
+}
+
+.card-b {
+  display: flex;
+  gap: 2rem;
+  height: 100px;
+  width: 600px;
+}
+.card {
+  
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(84, 94, 97) !important;
+}
+
+.footer {
+  background-color: rgb(84, 94, 97);
+  width: 550px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+  
